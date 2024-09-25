@@ -3,7 +3,7 @@
 
 These notes were put together to help my fellow Kubrick Consultants master the syntax of PySpark & Kafka, the Python packages we use to compute in Databricks.
 
-Unfortunately, I was laid off before I had the opportunity to share these techniques with my fellow consultants. Unfortunately, I was laid off before I had the opportunity to finish this repository as a company resource. Instead, I've opted to share a scrubbed version publicly, under the MIT license, to display my command of Spark and Kafka as tools.
+Unfortunately, I was laid off before I had the opportunity to finish this repository as a company resource. Instead, I've opted to share a scrubbed version publicly, under the MIT license, to display my command of Spark and Kafka as tools.
 
 ## Layout & Use:
 
