@@ -1,7 +1,4 @@
 # Using Spark & Kafka
-
-<b>Welcome to my Apache Spark Notes</b> 
-
 ## About 
 
 These notes were put together to help my fellow Kubrick Consultants master the syntax of PySpark & Kafka, the Python packages we use to compute in Databricks.
