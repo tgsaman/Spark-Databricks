@@ -7,54 +7,24 @@ Unfortunately, I was laid off before I had the opportunity to share these techni
 
 ## Layout & Use:
 
-This folder is broken up into several sub-folders. 
+This project is broken up into two sub-folders, one for each package we used with Databricks, Spark & Kafka.
 
-Spark & Kafka are each given their own folder. Each subject requires different installs and methods. 
+- Kafka Practice Streams
+- Spark Practice Exercises
 
-Within each subject folder, there are techniques, excercises, and an example of a Data Workflow. (Data Ingestion for Spark and Data Streaming for Kafka).
-
-- Spark
-  - Techniques
-  - Excercises
-  - Data Ingestion
-- Kafka
-  - Techniques
-  - Excercises
-  - Data Streaming
-
-Techniques provide the building blocks for the skills required to use each package. The excercises, which are completed with code from David Portas, allow consultants to apply their understanding. <i><u>(We might want to consider making blank versions of these excercises as notebooks)</i></u>
-
-The Data Workflow samples are collections of relevant files using the corresponding package to solve a business challenge. (The Spark one needs some work)
+Within each folder, there are a set of techniques on display across a number of excercises. (Data Ingestion for Spark and Data Streaming for Kafka).
 
 ## Setup & Installation:
 
 <b>Run these notebooks in Databricks (preferred method)</b>
 
-Click the "+ New" or "Create" button. Upload this folder to your Databricks enviornment. Done!
+In order to run these as production scripts, we'd want to use a cluster compute tool like Amazon Redshift or Databricks. Those are a bit of a pain to get running, so I'm using Jupyter notebooks for now.
 
-If you have access to the GitLab address for this repository, you can also sync via the https link.
+In order to display the intended result of the code, I've uploaded the exercise solutions as Jupyter notebooks. Such notebooks allowed me to keep detailed notes during the learning process. To test the functionality of the code in the notebooks, you can start a databricks 2-core cluster with a free trial and drop these notebooks into your enviornment with the GUI.
 
-<b>Running Parallel Machines Locally</b>
-
-To run this code locally, we will need to mimic the functionality of a parallel computing enviornment like Databricks. This requires several local installs.
-- Spark
-- PySpark
-- Kafka
-- Kafka Admin
-
-https://www.knowledgehut.com/blog/big-data/how-to-install-apache-spark-on-windows
-<u><i> This link is for Spark -- I need to actually figure out how to do this, still. Also, I have no idea how to that with Kafka.</i></u>
+These exercises were adaptations of former client problems solved by senior staff at Kubrick Group. They shared their solutions with us in a classroom context, asking us to cross gaps in efficiency, solve similar problems to common requests they encountered, and generally get comofortable with building and using dataframes in a cluster compute context.
 
 ## Documentation
-
-You can also refer to the original documentation used to teach Spark here:
-
-<b>Internal Kubrick Documentation</b>
-
-(Intro to Spark, Kafka and Databricks)
-
-https://kubrickgroup.sharepoint.com/:u:/r/sites/HQHUB/SitePages/Introduction-to-Spark.aspx?csf=1&web=1&e=IZ24bv
-
 
 <b> Apache Spark Documentation </b>
 
@@ -70,4 +40,5 @@ https://spark.apache.org/docs/latest/api/python/getting_started/install.html
 Download the Kafka ebook from Confluent.io (a cloud-hosted Kafka application)
 https://www.confluent.io/resources/kafka-the-definitive-guide/
 
+<b> Databricks Academy </b>
 https://partner-academy.databricks.com/learn
