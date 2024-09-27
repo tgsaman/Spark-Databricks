@@ -18,9 +18,7 @@ Within each folder, there are a set of techniques on display across a number of 
 
 <b>Run these notebooks in Databricks (preferred method)</b>
 
-In order to run these as production scripts, we'd want to use a cluster compute tool like Amazon Redshift or Databricks. Those are a bit of a pain to get running, so I'm using Jupyter notebooks for now.
-
-In order to display the intended result of the code, I've uploaded the exercise solutions as Jupyter notebooks. Such notebooks allowed me to keep detailed notes during the learning process. To test the functionality of the code in the notebooks, you can start a databricks 2-core cluster with a free trial and drop these notebooks into your enviornment with the GUI.
+In order to run the Spark dependencies, you'll need an underlying cluster compute protocol. Those are a bit of a pain to get running, so I'm using Jupyter notebooks for now. Such notebooks allowed me to keep detailed notes during the learning process. Fortunately, Databicks allows you to upload Jupyter notebooks using the GUI, and allows you to write and export code in a ipynb format. To test the functionality of the code in the notebooks, you can start a databricks 2-core cluster with a free trial and drop these notebooks into your enviornment with the GUI.
 
 These exercises were adaptations of former client problems solved by senior staff at Kubrick Group. They shared their solutions with us in a classroom context, asking us to cross gaps in efficiency, solve similar problems to common requests they encountered, and generally get comofortable with building and using dataframes in a cluster compute context.
 
