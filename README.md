@@ -1,4 +1,4 @@
-# Using Spark & Kafka
+# Using Spark & Kafka in Databricks
 ## About 
 
 These notes were put together to help my fellow Kubrick Consultants master the syntax of PySpark & Kafka, the Python packages we use to compute in Databricks.
